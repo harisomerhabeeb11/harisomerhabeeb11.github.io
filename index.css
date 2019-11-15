@@ -1,0 +1,57 @@
+/* Contains CSS elements for index.html page.*/
+
+body {
+	background: white;
+  padding-top: 70px; 
+
+}
+.navbar-inverse {
+  background: #2c3e50;
+  color: white;
+}
+.navbar-inverse .navbar-brand, .navbar-inverse a {
+  color:white;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+}
+.navbar a li :hover {
+	opacity: 0.2px; 
+} 
+.jumbotron {
+  background: linear-gradient(to right, gray, #0ed2f7);
+  color: white;
+  font-size: 20px;
+}
+#name {
+  font-size: 30px;
+}
+#gallery {
+	background: linear-gradient(to right, gray, #0ed2f7);
+	color: white;
+	font-size: 25px;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	text-align: center;
+	width: 100%;
+}
+.thumbnail:hover {
+	border: 2px solid #0ED2F7;
+}
+.thumbnail {
+	margin:10px;
+}
+#contact {
+	background: #2c3e50;
+	color: white;
+	padding: 2px;
+	text-align: center;
+}
+#social {
+	border: 1px solid black;
+  display: inline-block;
+	font-size: 20px;
+	padding: 5px 15px;
+}
